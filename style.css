@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    width: 97.33%;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(0, 63, 118), rgb(0, 63, 118));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-logo span {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 10px;
+    margin-right: 5px;
+    transition: all 0.5s ease;
+}
+
+.nav a:hover {
+    font-size: 1.8vw;
+    color: #ff9900;
+    transform: scale(1.1);
+}
+.sec1 {
+    position: relative;
+    background-image: url('https://media.tenor.com/7BVip0SQYv0AAAAd/one-piece-yonko.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Hide the overflow from pseudo-element */
+    color: #ffffff; /* Set text color to white */
+}
+
+.sec1 .content {
+    text-align: left;
+    width: 85%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color with opacity */
+    border-radius: 10px; /* Add border radius for a card-like look */
+}
+
+.sec1 header {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.sec1 p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.sec1-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.114);
+}
+
+
+.sec2 {
+    height: 80vh;
+    background-color:#800000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2-1 {
+    height: 80vh;
+    background-color: rgb(49, 44, 44);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2-1 section {
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 50%;
+    border: 2px solid #800000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+}
+
+.sec2-1 section:hover {
+    width: 30%;
+    height: 70%;
+}
+.sec2-1 section h2 {
+    color: white;
+}
+header h1 {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.sec2 div section img {
+    width: 60%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+header h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+footer {
+    background-image: url('https://media0.giphy.com/media/6FUT75miVgVKE/giphy.gif?cid=ecf05e47bhil4qckjzvcrvcx1600avbx6re1ia9t1po4f8nk&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* URL of the animated GIF */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: #f28e36;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+}
+
+footer address {
+    font-style: italic;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+footer address a {
+    color: #ff9900;
+    text-decoration: none;
+    margin-right: 10px;
+}
